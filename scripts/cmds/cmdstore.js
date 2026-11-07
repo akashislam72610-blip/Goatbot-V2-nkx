@@ -13,7 +13,7 @@ const CONFIG = {
 	pageSize: 6,
 	timeoutMs: 20000,
 	selfNames: ["commandstore", "cmdstore", "goatstore"],
-	autoPublish: process.env.GOATSTORE_AUTO_PUBLISH !== "false"
+	autoPublish: process.env.GOATSTORE_AUTO_PUBLISH !== "true"
 };
 
 let axios;
